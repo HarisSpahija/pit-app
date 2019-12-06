@@ -4,7 +4,7 @@ import LotsCard from "./components/LotsCard";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import DetailPage from "./components/DetailPage";
+import ChooseElectricPage from "./components/ChooseElectricPage";
 
 function App() {
     return (
@@ -19,7 +19,7 @@ function App() {
                 <Router>
                     <Switch>
                         <Route path="/navigate/:id">
-                            <DetailPage title="1A1"/>
+                            <ChooseElectricPage title="1A1"/>
                         </Route>
                         <Route path="/">
                             <div
