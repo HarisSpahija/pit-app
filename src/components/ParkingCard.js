@@ -14,10 +14,10 @@ export default function ParkingCard({
 
     switch (status) {
         case "free":
-            backgroundColor = "green"
+            backgroundColor = "#00c900"
             break;
         case "full":
-            backgroundColor = "red"
+            backgroundColor = "#ff4444"
             break;
         case "almost":
             backgroundColor = "orange"
