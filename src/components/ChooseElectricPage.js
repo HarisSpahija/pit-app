@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function ChooseElectricPage() {
+    let { id } = useParams()
+
     return (
         <div>
             <div style={{ height: "20vh", display: "flex", justifyContent: "center", alignItems: "center" }}>Rijdt u een elektrische auto?</div>
@@ -23,6 +25,7 @@ export default function ChooseElectricPage() {
                         textDecoration: "none",
                         fontSize: "80px"
                     }}
+                    to={`/lastpage/${id}/true`}
                 >
                     Nee
                 </Link>
@@ -37,6 +40,7 @@ export default function ChooseElectricPage() {
                         textDecoration: "none",
                         fontSize: "80px"
                     }}
+                    to={`/lastpage/${id}/false`}
                 >
                     Ja
                 </Link>
