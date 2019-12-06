@@ -7,7 +7,7 @@ import Lambo from "../static/lambo.png";
 import Bentley from "../static/bentley.png";
 import Porsche from "../static/porsche.png";
 import Logistics from "../static/logistics.png";
-import Academy from "../static/academy.png";
+import Modiforce from "../static/modiforce.png";
 import Bezoekers from "../static/bezoekers.png";
 
 export default class LotsCard extends React.Component {
@@ -34,8 +34,8 @@ export default class LotsCard extends React.Component {
         const logosCard0 = [Bezoekers];
         const logosCard1 = [Porsche];
         const logosCard2 = [Logistics];
-        const logosCard3 = [Lambo];
-        const logosCard4 = [Academy];
+        const logosCard3 = [Modiforce];
+        const logosCard4 = [Lambo];
         const logosCard5 = [Bentley];
 
         if (error) {
@@ -123,7 +123,7 @@ export default class LotsCard extends React.Component {
                         />
                         <ParkingCard
                             status={lot4Color}
-                            parkingLot={lots[3].name}
+                            parkingLot={lots[3].id}
                             parkingLotText={lots[3].name}
                             logos={logosCard3}
                             spotsAvailable={lotFreeSpaces4}
