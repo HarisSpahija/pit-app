@@ -11,10 +11,12 @@ import Bezoekers from "./static/bezoekers.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import NavigatePage from "./components/NavigatePage";
 function App() {
-    const logosCard1 = [Lambo, Bentley, Porsche];
+    const logosCard1 = [Lambo];
     const logosCard2 = [Logistics];
     const logosCard3 = [Academy];
     const logosCard4 = [Bezoekers];
+    const logosCard5 = [Porsche];
+    const logosCard6 = [Bentley];
 
     return (
         <div className="App">
@@ -42,7 +44,7 @@ function App() {
                             >
                                 <h1>Selecteer uw bestemming</h1>
                             </div>
-                            <div class="row" style={{ height: "45vh" }}>
+                            <div class="row" style={{ height: "30vh" }}>
                                 <ParkingCard
                                     status="full"
                                     parkingLot="1"
@@ -58,7 +60,7 @@ function App() {
                                     spotsAvailable={3}
                                 />
                             </div>
-                            <div class="row" style={{ height: "45vh" }}>
+                            <div class="row" style={{ height: "30vh" }}>
                                 <ParkingCard
                                     status="free"
                                     parkingLot="3"
@@ -72,6 +74,22 @@ function App() {
                                     parkingLotText="Bezoekers"
                                     logos={logosCard4}
                                     spotsAvailable={9}
+                                />
+                            </div>
+                             <div class="row" style={{ height: "30vh" }}>
+                                <ParkingCard
+                                    status="almost"
+                                    parkingLot="5"
+                                    parkingLotText="Lamborghini"
+                                    logos={logosCard5}
+                                    spotsAvailable={1}
+                                />
+                                <ParkingCard
+                                    status="free"
+                                    parkingLot="6"
+                                    parkingLotText="Bentley"
+                                    logos={logosCard6}
+                                    spotsAvailable={5}
                                 />
                             </div>
                         </Route>

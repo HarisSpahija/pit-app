@@ -1,16 +1,14 @@
-import React from 'react'
-import {
-  useParams
-} from 'react-router-dom'
+import React from "react";
+import { useParams, Link } from "react-router-dom";
 
-export const NavigatePage = (props) => {    
+export const NavigatePage = props => {
     const { id } = useParams();
-    
+
     return (
         <div>
-            {id}
+            <Link to={`/`}>{id}</Link>
         </div>
-    )
-}
+    );
+};
 
 export default NavigatePage;
