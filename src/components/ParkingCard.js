@@ -46,7 +46,7 @@ export default function ParkingCard({
                             justifyContent: "center",
                             flexDirection: "column",
                             alignItems: "center",
-                            height: "80%"
+                            height: "40%"
                         }}
                     >
                         <div>
@@ -57,8 +57,8 @@ export default function ParkingCard({
                                         <Image
                                             variant="top"
                                             style={{
-                                                maxHeight: 250,
-                                                maxWidth: 250
+                                                maxHeight: 150,
+                                                maxWidth: 150
                                             }}
                                             src={image}
                                         />
