@@ -14,12 +14,12 @@ function App() {
             />
             <header className="App-header">
                 <div class="row">
-                    <ParkingCard />
-                    <ParkingCard />
+                    <ParkingCard parkingLot="Lot A" />
+                    <ParkingCard parkingLot="Lot B" />
                 </div>
                 <div class="row">
-                    <ParkingCard />
-                    <ParkingCard />
+                    <ParkingCard parkingLot="Lot C" />
+                    <ParkingCard parkingLot="Lot D" />
                 </div>
             </header>
         </div>
