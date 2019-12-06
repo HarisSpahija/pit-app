@@ -19,7 +19,7 @@ function App() {
                 <Router>
                     <Switch>
                         <Route path="/navigate/:id">
-                            <DetailPage title="1A1"/>
+                            <DetailPage />
                         </Route>
                         <Route path="/">
                             <div

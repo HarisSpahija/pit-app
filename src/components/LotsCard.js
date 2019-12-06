@@ -29,7 +29,6 @@ export default class LotsCard extends React.Component {
     }
 
     render() {
-        console.log(data)
         const { error, isLoaded, lots } = this.state;
 
         const logosCard0 = [Bezoekers];
@@ -44,13 +43,6 @@ export default class LotsCard extends React.Component {
         } else if (!isLoaded) {
             return <div>Loading...</div>;
         } else {
-
-            const lot1ElectricSpaces = _lodash.filter(lots[0].spaces, (s) => { return s.whitCharger === true });
-            const lot2ElectricSpaces = _lodash.filter(lots[1].spaces, (s) => { return s.whitCharger === true });
-            const lot3ElectricSpaces = _lodash.filter(lots[2].spaces, (s) => { return s.whitCharger === true });
-            const lot4ElectricSpaces = _lodash.filter(lots[3].spaces, (s) => { return s.whitCharger === true });
-            const lot5ElectricSpaces = _lodash.filter(lots[4].spaces, (s) => { return s.whitCharger === true });
-            const lot6ElectricSpaces = _lodash.filter(lots[5].spaces, (s) => { return s.whitCharger === true });
 
             const lotFreeSpaces1 = _lodash.filter(lots[0].spaces, (s) => { return s.free === true }).length;
             const lotFreeSpaces2 = _lodash.filter(lots[1].spaces, (s) => { return s.free === true }).length;
