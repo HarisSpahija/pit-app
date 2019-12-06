@@ -12,7 +12,8 @@ class DetailPage extends Component {
     }
 
     render() {
-        const { id, ev, lots } = this.props.match.params;
+        const { id } = this.props.match.params;
+        const { ev, lots } = this.props;
 
         const lotElectricSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === true });
         const lotNormalSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === false });
