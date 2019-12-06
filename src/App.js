@@ -5,6 +5,7 @@ import LotsCard from "./components/LotsCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DetailPage from "./components/DetailPage";
+import data from "./mock/lots";
 
 function App() {
     return (
@@ -33,7 +34,7 @@ function App() {
                             >
                                 <h1>Selecteer uw bestemming</h1>
                             </div>
-                            <LotsCard />
+                            <LotsCard lots={data} />
                         </Route>
                     </Switch>
                 </Router>
