@@ -1,0 +1,111 @@
+[
+    {
+        "id": "1",
+        "name": "PON Leusden Bezoekers",
+        "description": "Bezoekers parkeerplaats bij PON in Leusden",
+        "totalSpaces": 24,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R",
+            "1B3",
+            "1B3R",
+            "1B4R",
+            "1B5",
+            "1B5R",
+            "1B6",
+            "1B6R"
+        ],
+        "freeSpaces": [
+            "1A1",
+            "1A3R",
+            "1A4R",
+            "1B1",
+            "1B4"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "PON Porsche",
+        "description": "Parkeerplaats bij PON Porsche in Leusden",
+        "totalSpaces": 16,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R"
+        ],
+        "freeSpaces": [
+            "1A1",
+            "1A3R",
+            "1A4R"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "PON Logistics",
+        "description": "Parkeerplaats bij PON Logistics in Leusden",
+        "totalSpaces": 16,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R"
+        ],
+        "freeSpaces": [
+            "1A1",
+            "1A3R",
+            "1A4R"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "PON Modiforce",
+        "description": "Parkeerplaats bij PON Modiforce in Leusden",
+        "totalSpaces": 16,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R"
+        ],
+        "freeSpaces": [
+            "1A1",
+            "1A3R",
+            "1A4R"
+        ]
+    }
+]
