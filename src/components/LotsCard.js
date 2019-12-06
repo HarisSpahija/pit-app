@@ -1,4 +1,5 @@
 import React from "react";
+import * as _lodash from "lodash"
 
 import data from "../mock/lots";
 import ParkingCard from "./ParkingCard";
@@ -10,6 +11,7 @@ import Academy from "../static/academy.png";
 import Bezoekers from "../static/bezoekers.png";
 
 export default class LotsCard extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -43,12 +45,19 @@ export default class LotsCard extends React.Component {
             return <div>Loading...</div>;
         } else {
 
-            const lotFreeSpaces1 = lots[0].freeSpaces.length;
-            const lotFreeSpaces2 = lots[1].freeSpaces.length;
-            const lotFreeSpaces3 = lots[2].freeSpaces.length;
-            const lotFreeSpaces4 = lots[3].freeSpaces.length;
-            const lotFreeSpaces5 = lots[4].freeSpaces.length;
-            const lotFreeSpaces6 = lots[5].freeSpaces.length;
+            const lot1ElectricSpaces = _lodash.filter(lots[0].spaces, (s) => { return s.whitCharger === true });
+            const lot2ElectricSpaces = _lodash.filter(lots[1].spaces, (s) => { return s.whitCharger === true });
+            const lot3ElectricSpaces = _lodash.filter(lots[2].spaces, (s) => { return s.whitCharger === true });
+            const lot4ElectricSpaces = _lodash.filter(lots[3].spaces, (s) => { return s.whitCharger === true });
+            const lot5ElectricSpaces = _lodash.filter(lots[4].spaces, (s) => { return s.whitCharger === true });
+            const lot6ElectricSpaces = _lodash.filter(lots[5].spaces, (s) => { return s.whitCharger === true });
+
+            const lotFreeSpaces1 = _lodash.filter(lots[0].spaces, (s) => { return s.free === true }).length;
+            const lotFreeSpaces2 = _lodash.filter(lots[1].spaces, (s) => { return s.free === true }).length;
+            const lotFreeSpaces3 = _lodash.filter(lots[2].spaces, (s) => { return s.free === true }).length;
+            const lotFreeSpaces4 = _lodash.filter(lots[3].spaces, (s) => { return s.free === true }).length;
+            const lotFreeSpaces5 = _lodash.filter(lots[4].spaces, (s) => { return s.free === true }).length;
+            const lotFreeSpaces6 = _lodash.filter(lots[5].spaces, (s) => { return s.free === true }).length;
 
             const lotSpaces1 = lots[0].totalSpaces;
             const lotSpaces2 = lots[1].totalSpaces;

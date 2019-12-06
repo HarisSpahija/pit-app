@@ -4,155 +4,1919 @@
         "name": "PON Leusden Bezoekers",
         "description": "Bezoekers parkeerplaats bij PON in Leusden",
         "totalSpaces": 24,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1B3",
-            "1B3R",
-            "1B4R",
-            "1B5",
-            "1B5R",
-            "1B6",
-            "1B6R"
-        ],
-        "freeSpaces": [
-            "1A1",
-            "1A3R",
-            "1A4R",
-            "1B1",
-            "1B4"
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
         ]
     },
     {
         "id": "2",
         "name": "PON Porsche",
         "description": "Parkeerplaats bij PON Porsche in Leusden",
-        "totalSpaces": 16,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1A4R",
-            "1A3R"
-        ],
-        "freeSpaces": [
-            "1A1"
+        "totalSpaces": 24,
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
         ]
     },
     {
         "id": "3",
         "name": "PON Logistics",
         "description": "Parkeerplaats bij PON Logistics in Leusden",
-        "totalSpaces": 16,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1A3R",
-            "1A4R"
-        ],
-        "freeSpaces": [
-            "1A1"
+        "totalSpaces": 24,
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
         ]
     },
     {
         "id": "4",
         "name": "PON Modiforce",
         "description": "Parkeerplaats bij PON Modiforce in Leusden",
-        "totalSpaces": 16,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1A1",
-            "1A3R",
-            "1A4R"
-        ],
-        "freeSpaces": []
+        "totalSpaces": 24,
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
+        ]
     },
     {
         "id": "5",
         "name": "PON Lambourghini",
         "description": "Parkeerplaats bij PON Lambourghini in Leusden",
-        "totalSpaces": 16,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1A1",
-            "1A3R",
-            "1A4R"
-        ],
-        "freeSpaces": []
+        "totalSpaces": 24,
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
+        ]
     },
     {
         "id": "6",
         "name": "PON Bentley",
         "description": "Parkeerplaats bij PON Bentley in Leusden",
-        "totalSpaces": 16,
-        "occupiedSpaces": [
-            "1A1R",
-            "1A2",
-            "1A2R",
-            "1A3",
-            "1A4",
-            "1A5",
-            "1A5R",
-            "1A6",
-            "1A6R",
-            "1B1R",
-            "1B2",
-            "1B2R",
-            "1A1",
-            "1A3R",
-            "1A4R"
-        ],
-        "freeSpaces": []
+        "totalSpaces": 24,
+        "spaces": [
+            {
+                "id": "1A1",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A1R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2",
+                "lotId": "1",
+                "row": "A",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A2R",
+                "lotId": "1",
+                "row": "A",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1A3R",
+                "lotId": "1",
+                "row": "A",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1A4",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A4R",
+                "lotId": "1",
+                "row": "A",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1A5",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A5R",
+                "lotId": "1",
+                "row": "A",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1A6R",
+                "lotId": "1",
+                "row": "A",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B1",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": true
+            },
+            {
+                "id": "1B1R",
+                "lotId": "1",
+                "row": "B",
+                "column": 1,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B2R",
+                "lotId": "1",
+                "row": "B",
+                "column": 2,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B3R",
+                "lotId": "1",
+                "row": "B",
+                "column": 3,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": true
+            },
+            {
+                "id": "1B4",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": true,
+                "withCharger": false
+            },
+            {
+                "id": "1B4R",
+                "lotId": "1",
+                "row": "B",
+                "column": 4,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B5R",
+                "lotId": "1",
+                "row": "B",
+                "column": 5,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "LEFT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            },
+            {
+                "id": "1B6R",
+                "lotId": "1",
+                "row": "B",
+                "column": 6,
+                "side": "RIGHT",
+                "location": {
+                    "lat": 56.054684,
+                    "lon": 98.513
+                },
+                "free": false,
+                "withCharger": false
+            }
+        ]
     }
 ]
