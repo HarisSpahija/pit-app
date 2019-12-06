@@ -1,9 +1,9 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card";
 
 export default function ParkingCard() {
     return (
-        <Card style={{ width: "50vw", height: "50vh" }}>
+        <Card style={{ width: "50vw", height: "50vh", border: "10px solid black", boxSizing: "border-box" }}>
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
