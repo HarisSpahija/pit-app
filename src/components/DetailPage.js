@@ -15,8 +15,10 @@ class DetailPage extends Component {
         const { id } = this.props.match.params;
         const { ev, lots } = this.props;
 
-        const lotElectricSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === true });
-        const lotNormalSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === false });
+        const lot = _lodash.find(lots, (l) => { return l.id === id });
+
+        const lotElectricSpaces = _lodash.filter(lot.spaces, (s) => { return s.withCharger === true });
+        const lotNormalSpaces = _lodash.filter(lot.spaces, (s) => { return s.withCharger === false });
         let assignedSpace;
 
         if (ev) {
@@ -29,7 +31,9 @@ class DetailPage extends Component {
             const int = rn(options);
             assignedSpace = freeSpaces[int];
         } else {
+            console.log(lotNormalSpaces)
             const freeSpaces = _lodash.filter(lotNormalSpaces, (s) => { return s.free === true });
+            console.log(freeSpaces)
             var options = {
                 min: 0
                 , max: freeSpaces.length - 1
@@ -75,7 +79,7 @@ class DetailPage extends Component {
                     flexDirection: "column"
                 }}
             >
-                <h1>Rijd naar parkeerplek: {assignedSpace.name}</h1>
+                <h1>Rijd naar parkeerplek: {assignedSpace.id}</h1>
                 <Iframe
                     src={src}
                     width="800"
