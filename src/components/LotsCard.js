@@ -1,7 +1,6 @@
 import React from "react";
 import * as _lodash from "lodash"
 
-import data from "../mock/lots";
 import ParkingCard from "./ParkingCard";
 import Lambo from "../static/lambo.png";
 import Bentley from "../static/bentley.png";
@@ -15,7 +14,7 @@ export default class LotsCard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            lots: [],
+            lots: this.props.lots,
             isLoaded: false,
             error: false
         };
@@ -23,8 +22,7 @@ export default class LotsCard extends React.Component {
 
     componentDidMount() {
         this.setState({
-            isLoaded: true,
-            lots: data
+            isLoaded: true
         });
     }
 
