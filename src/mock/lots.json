@@ -106,5 +106,53 @@
             "1A4R"
         ],
         "freeSpaces": []
+    },
+    {
+        "id": "5",
+        "name": "PON Lambourghini",
+        "description": "Parkeerplaats bij PON Lambourghini in Leusden",
+        "totalSpaces": 16,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R",
+            "1A1",
+            "1A3R",
+            "1A4R"
+        ],
+        "freeSpaces": []
+    },
+    {
+        "id": "6",
+        "name": "PON Bentley",
+        "description": "Parkeerplaats bij PON Bentley in Leusden",
+        "totalSpaces": 16,
+        "occupiedSpaces": [
+            "1A1R",
+            "1A2",
+            "1A2R",
+            "1A3",
+            "1A4",
+            "1A5",
+            "1A5R",
+            "1A6",
+            "1A6R",
+            "1B1R",
+            "1B2",
+            "1B2R",
+            "1A1",
+            "1A3R",
+            "1A4R"
+        ],
+        "freeSpaces": []
     }
 ]

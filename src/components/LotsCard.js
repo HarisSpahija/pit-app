@@ -47,13 +47,17 @@ export default class LotsCard extends React.Component {
             const lotFreeSpaces2 = lots[1].freeSpaces.length;
             const lotFreeSpaces3 = lots[2].freeSpaces.length;
             const lotFreeSpaces4 = lots[3].freeSpaces.length;
+            const lotFreeSpaces5 = lots[4].freeSpaces.length;
+            const lotFreeSpaces6 = lots[5].freeSpaces.length;
 
             const lotSpaces1 = lots[0].totalSpaces;
             const lotSpaces2 = lots[1].totalSpaces;
             const lotSpaces3 = lots[2].totalSpaces;
             const lotSpaces4 = lots[3].totalSpaces;
+            const lotSpaces5 = lots[4].totalSpaces;
+            const lotSpaces6 = lots[5].totalSpaces;
 
-            let lot1Color = "free", lot2Color = "free", lot3Color = "free", lot4Color = "free";
+            let lot1Color = "free", lot2Color = "free", lot3Color = "free", lot4Color = "free", lot5Color = "free", lot6Color = "free";
             if (((100 * lotFreeSpaces1) / lotSpaces1) < 10 && ((100 * lotFreeSpaces1) / lotSpaces1) > 5) {
                 lot1Color = "almost";
             } else if (((100 * lotFreeSpaces1) / lotSpaces1) < 2) {
@@ -76,6 +80,18 @@ export default class LotsCard extends React.Component {
                 lot4Color = "almost";
             } else if (((100 * lotFreeSpaces4) / lotSpaces4) < 5) {
                 lot4Color = "full";
+            }
+
+            if (((100 * lotFreeSpaces5) / lotSpaces5) < 10 && ((100 * lotFreeSpaces5) / lotSpaces5) > 5) {
+                lot5Color = "almost";
+            } else if (((100 * lotFreeSpaces5) / lotSpaces5) < 5) {
+                lot5Color = "full";
+            }
+
+            if (((100 * lotFreeSpaces6) / lotSpaces6) < 10 && ((100 * lotFreeSpaces6) / lotSpaces6) > 5) {
+                lot6Color = "almost";
+            } else if (((100 * lotFreeSpaces6) / lotSpaces6) < 5) {
+                lot6Color = "full";
             }
 
             return (
@@ -114,18 +130,18 @@ export default class LotsCard extends React.Component {
                     </div>
                     <div class="row" style={{ height: "30vh" }}>
                         <ParkingCard
-                            status="almost"
-                            parkingLot={lots[3].id}
-                            parkingLotText={lots[3].name}
+                            status={lot5Color}
+                            parkingLot={lots[4].id}
+                            parkingLotText={lots[4].name}
                             logos={logosCard4}
-                            spotsAvailable={1}
+                            spotsAvailable={lotFreeSpaces5}
                         />
                         <ParkingCard
-                            status="free"
-                            parkingLot={lots[3].id}
-                            parkingLotText={lots[3].name}
+                            status={lot6Color}
+                            parkingLot={lots[5].id}
+                            parkingLotText={lots[5].name}
                             logos={logosCard5}
-                            spotsAvailable={5}
+                            spotsAvailable={lotFreeSpaces6}
                         />
                     </div>
                 </div>
