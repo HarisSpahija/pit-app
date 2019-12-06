@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
 import Iframe from "react-iframe";
+import * as _lodash from "lodash";
+import rn from "random-number";
 
 class DetailPage extends Component {
     componentDidMount() {
@@ -10,7 +12,32 @@ class DetailPage extends Component {
     }
 
     render() {
-        const { id } = this.props.match.params;
+        const { id, ev, lots } = this.props.match.params;
+
+        const lotElectricSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === true });
+        const lotNormalSpaces = _lodash.filter(lots[id].spaces, (s) => { return s.whitCharger === false });
+        let assignedSpace;
+
+        if (ev) {
+            const freeSpaces = _lodash.filter(lotElectricSpaces, (s) => { return s.free === true });
+            var options = {
+                min: 0
+                , max: freeSpaces.length - 1
+                , integer: true
+            }
+            const int = rn(options);
+            assignedSpace = freeSpaces[int];
+        } else {
+            const freeSpaces = _lodash.filter(lotNormalSpaces, (s) => { return s.free === true });
+            var options = {
+                min: 0
+                , max: freeSpaces.length - 1
+                , integer: true
+            }
+            const int = rn(options);
+            assignedSpace = freeSpaces[int];
+        }
+
         let src = "";
         switch (id) {
             case "1": // Bezoekers
@@ -47,7 +74,7 @@ class DetailPage extends Component {
                     flexDirection: "column"
                 }}
             >
-                <h1>Rijd naar parkeerplek: {this.props.title}</h1>
+                <h1>Rijd naar parkeerplek: {assignedSpace.name}</h1>
                 <Iframe
                     src={src}
                     width="800"
