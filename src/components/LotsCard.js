@@ -11,7 +11,6 @@ import Academy from "../static/academy.png";
 import Bezoekers from "../static/bezoekers.png";
 
 export default class LotsCard extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -29,52 +28,69 @@ export default class LotsCard extends React.Component {
     }
 
     render() {
+        console.log(data)
         const { error, isLoaded, lots } = this.state;
 
-        const logosCard1 = [Lambo, Bentley, Porsche];
+        const logosCard0 = [Bezoekers];
+        const logosCard1 = [Porsche];
         const logosCard2 = [Logistics];
-        const logosCard3 = [Academy];
-        const logosCard4 = [Bezoekers];
+        const logosCard3 = [Lambo];
+        const logosCard4 = [Academy];
+        const logosCard5 = [Bentley];
 
         if (error) {
             return <div>An error occurred!</div>;
         } else if (!isLoaded) {
             return <div>Loading...</div>;
         } else {
-
             return (
                 <div>
-
-                    <div class="row" style={{ height: "45vh" }}>
+                    <div class="row" style={{ height: "30vh" }}>
                         <ParkingCard
                             status="full"
                             parkingLot={lots[0].id}
                             parkingLotText={lots[0].name}
-                            logos={logosCard1}
+                            logos={logosCard0}
                             spotsAvailable={0}
                         />
                         <ParkingCard
                             status="almost"
                             parkingLot={lots[1].id}
                             parkingLotText={lots[1].name}
-                            logos={logosCard2}
+                            logos={logosCard1}
                             spotsAvailable={3}
                         />
                     </div>
-                    <div class="row" style={{ height: "45vh" }}>
+                    <div class="row" style={{ height: "30vh" }}>
                         <ParkingCard
                             status="free"
                             parkingLot={lots[2].id}
                             parkingLotText={lots[2].name}
-                            logos={logosCard3}
+                            logos={logosCard2}
                             spotsAvailable={13}
                         />
                         <ParkingCard
                             status="free"
-                            parkingLot={lots[3].name}
+                            parkingLot={lots[3].id}
+                            parkingLotText={lots[3].name}
+                            logos={logosCard3}
+                            spotsAvailable={9}
+                        />
+                    </div>
+                    <div class="row" style={{ height: "30vh" }}>
+                        <ParkingCard
+                            status="almost"
+                            parkingLot={lots[3].id}
                             parkingLotText={lots[3].name}
                             logos={logosCard4}
-                            spotsAvailable={9}
+                            spotsAvailable={1}
+                        />
+                        <ParkingCard
+                            status="free"
+                            parkingLot={lots[3].id}
+                            parkingLotText={lots[3].name}
+                            logos={logosCard5}
+                            spotsAvailable={5}
                         />
                     </div>
                 </div>
@@ -82,4 +98,3 @@ export default class LotsCard extends React.Component {
         }
     }
 }
-
